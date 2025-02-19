@@ -32,24 +32,44 @@ export default function Home() {
         <section className="mt-8 bg-secondary p-6 rounded-lg">
           <h2 className="text-2xl font-semibold text-primary mb-4">Bio</h2>
           <p className="text-base text-foreground leading-relaxed">
-            I am a Teaching Stream Professor in the Department of Computer and
-            Mathematical Sciences at the University of Toronto Scarborough. My
-            research focuses on Computer Science Education and Pedagogy, with a
-            special emphasis on involving undergraduate students in research.
+            I am a Teaching Stream Professor in the{" "}
+            <a className="underline" href="https://www.utsc.utoronto.ca/cms/">
+              Department of Computer and Mathematical Sciences
+            </a>{" "}
+            at the{" "}
+            <a className="underline" href="https://www.utsc.utoronto.ca/home/">
+              University of Toronto Scarborough.
+            </a>{" "}
+            My research focuses on Computer Science Education and Pedagogy, with
+            a special emphasis on involving undergraduate students in research.
           </p>
           <p className="text-base text-foreground leading-relaxed mt-4">
-            I completed my Doctorate in Computer Science at the Oxford
-            University Department of Computer Science under the supervision of
-            Dr. Stephen Clark. My research focused on the intersection of
-            Artificial Intelligence and Natural Language Processing, in
-            particular, the automated construction of Semantic Network with the
-            ASKNet system.
+            I completed my Doctorate in Computer Science at the{" "}
+            <a className="underline" href="https://www.cs.ox.ac.uk/">
+              Oxford University Department of Computer Science
+            </a>{" "}
+            under the supervision of{" "}
+            <a
+              className="underline"
+              href="https://cambridgequantum.com/scientist/stephen-clark/"
+            >
+              Dr. Stephen Clark.
+            </a>{" "}
+            My research focused on the intersection of Artificial Intelligence
+            and Natural Language Processing, in particular, the automated
+            construction of Semantic Network with the ASKNet system.
           </p>
           <p className="text-base text-foreground leading-relaxed mt-4">
             Prior to joining UTSC, I held a Research and Tutorial Fellowship in
-            Computer Science at Keble College, Oxford. And worked as a Research
-            Scientist in the Medical Informatics Group at the University of
-            Wisconsin Milwaukee.
+            Computer Science at{" "}
+            <a className="underline" href="https://www.keble.ox.ac.uk/">
+              Keble College, Oxford.
+            </a>{" "}
+            And worked as a Research Scientist in the Medical Informatics Group
+            at the{" "}
+            <a className="underline" href="https://uwm.edu/">
+              University of Wisconsin Milwaukee.
+            </a>
           </p>
         </section>
 

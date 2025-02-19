@@ -22,8 +22,8 @@ const Layout: FC<LayoutProps> = ({ children }) => {
               </Link>
             </li>
             <li>
-              <Link href="/teaching" className="hover:underline">
-                Teaching
+              <Link href="/reading-group" className="hover:underline">
+                Reading Group
               </Link>
             </li>
             <li>
@@ -37,7 +37,8 @@ const Layout: FC<LayoutProps> = ({ children }) => {
       <main className="container mx-auto px-4 py-8">{children}</main>
       <footer className="border-t">
         <div className="container mx-auto px-4 py-4 text-center text-sm text-muted-foreground">
-          © {new Date().getFullYear()} Dr. John Doe. All rights reserved.
+          © {new Date().getFullYear()} Dr. Brian Harrington. All rights
+          reserved.
         </div>
       </footer>
     </div>
