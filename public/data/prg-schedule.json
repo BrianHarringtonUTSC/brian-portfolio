@@ -1,0 +1,438 @@
+{
+  "2024-2025": [
+    {
+      "date": "16-09-24",
+      "paperTitle": "Generative artificial intelligence in healthcare: A scoping review on benefits, challenges and applications",
+      "paperLink": "https://doi.org/10.1016/j.ijmedinf.2024.105474",
+      "slidesLink": "https://github.com/cms-urg/Paper-Reading-Group/blob/b3a4c7548d5ade3d60fbc78972c2d83ab0693fd0/Slides/GenAI%20%20in%20Healthcare%20-%20Shreeansha.pdf",
+      "resources": "",
+      "presenter": [
+        {
+          "name": "Shreeansha Bhattarai",
+          "link": "https://www.linkedin.com/in/shreeansha-bhattarai-9bb79b217/"
+        }
+      ]
+    },
+    {
+      "date": "23-09-24",
+      "paperTitle": "On Using Physiological Sensors and AI to Monitor Emotions in a Bug-Hunting Game",
+      "paperLink": "https://doi.org/10.1145/3649217.3653611",
+      "slidesLink": "https://github.com/cms-urg/Paper-Reading-Group/blob/8f524ab96940941458e63103d774eb57ff02a37d/Slides/Emotions%20AI%20-%20Ada%20Cakmak.pdf",
+      "resources": "",
+      "presenter": [
+        {
+          "name": "Ada Cakmak",
+          "link": "https://www.linkedin.com/in/nevin-ada-cakmak/"
+        }
+      ]
+    },
+    {
+      "date": "30-09-24",
+      "paperTitle": "ChatScratch: An AI-Augmented System Toward Autonomous Visual Programming Learning for Children Aged 6-12.",
+      "paperLink": "https://doi.org/10.1145/3613904.3642229",
+      "slidesLink": "https://github.com/cms-urg/Paper-Reading-Group/blob/8f524ab96940941458e63103d774eb57ff02a37d/Slides/ChatScratch%20-%20Zubair%20and%20Neha.pdf",
+      "resources": "",
+      "presenter": [
+        {
+          "name": "Zubair Alnoor",
+          "link": "https://www.linkedin.com/in/ahmad-zubair-alnoor-413409221/"
+        },
+        { "name": "Neha Prabhu", "link": "mailto:neha.prabu@mail.utoronto.ca" }
+      ]
+    },
+    {
+      "date": "07-10-24",
+      "paperTitle": "CS1-LLM: Integrating LLMs into CS1 Instruction",
+      "paperLink": "https://doi.org/10.1145/3649217.3653584",
+      "slidesLink": "https://github.com/cms-urg/Paper-Reading-Group/blob/171cb4984ea3d9188c6894bd525a97293a29ac1d/Slides/CS1%20LLM%20-%20Arshiya%20and%20Weixuan.pdf",
+      "resources": "",
+      "presenter": [
+        { "name": "Weixuan Liao", "link": "mailto:w.liao@mail.utoronto.ca" },
+        {
+          "name": "Arshiya Mahmoodinezhad",
+          "link": "mailto:arshiya.mahmoodinezhad@mail.utoronto.ca"
+        }
+      ]
+    },
+    {
+      "date": "21-10-24",
+      "paperTitle": "Do gender differences in perceived prototypical computer scientists and engineers contribute to gender gaps in computer science and engineering?",
+      "paperLink": "https://doi.org/10.1007/s11199-017-0763-x",
+      "slidesLink": "https://github.com/cms-urg/Paper-Reading-Group/blob/171cb4984ea3d9188c6894bd525a97293a29ac1d/Slides/Gender%20Gap%20-%20Ann%20and%20Ness.pdf",
+      "resources": "",
+      "presenter": [
+        {
+          "name": "Ness Schattman",
+          "link": "mailto:ness.schattman@mail.utoronto.ca"
+        },
+        {
+          "name": "Jeong Yuseon",
+          "link": "mailto:yuseon.jeong@mail.utoronto.ca"
+        }
+      ]
+    },
+    {
+      "date": "04-11-24",
+      "paperTitle": "Impact of an augmented reality system on students' motivation for a visual art course.",
+      "paperLink": "http://dx.doi.org/10.1016/j.compedu.2012.03.002",
+      "slidesLink": "https://github.com/cms-urg/Paper-Reading-Group/blob/171cb4984ea3d9188c6894bd525a97293a29ac1d/Slides/Augmented%20Reality%20-%20Louie.pdf",
+      "resources": "",
+      "presenter": [
+        { "name": "Louie Yang", "link": "mailto:louie.yang@mail.utoronto.ca" },
+        { "name": "Yuze Fu", "link": "mailto:lucas.fu@mail.utoronto.ca" }
+      ]
+    },
+    {
+      "date": "11-11-24",
+      "paperTitle": "Synthetic data from diffusion models improves imagenet classification.",
+      "paperLink": "https://arxiv.org/pdf/2304.08466",
+      "slidesLink": "https://github.com/cms-urg/Paper-Reading-Group/blob/171cb4984ea3d9188c6894bd525a97293a29ac1d/Slides/ImageNet%20-%20Alex%20and%20Isaac.pdf",
+      "resources": "",
+      "presenter": [
+        { "name": "Alex Zeng", "link": "mailto:a.zeng@mail.utoronto.ca" },
+        { "name": "Isaac Picov", "link": "mailto:isaac.picov@mail.utoronto.ca" }
+      ]
+    }
+  ],
+  "2023-2024": [
+    {
+      "date": "22-09-23",
+      "paperTitle": "Additional Evidence for the Prevalence of the Impostor Phenomenon in Computing",
+      "paperLink": "https://doi.org/10.1145/3478431.3499282",
+      "slidesLink": "https://github.com/cms-urg/Paper-Reading-Group/blob/dac72c3809e094cc99ab23e51df32c2d6b4e1881/Slides/Imposter%20Phenomenon%20-%20Angela%20Zavaleta.pdf",
+      "resources": "",
+      "presenter": [
+        {
+          "name": "Angela Zavaleta",
+          "link": "https://www.linkedin.com/in/angela-zavaleta-bernuy/"
+        }
+      ]
+    },
+    {
+      "date": "20-10-23",
+      "paperTitle": "Teaching objects-first in introductory computer science",
+      "paperLink": "https://doi.org/10.1145/792548.611966",
+      "slidesLink": "https://github.com/cms-urg/Paper-Reading-Group/blob/8424ee7bdf8c7a2bb467fda4dfb4b230c9502db0/Slides/Teaching%20Objects-first_Tony_Tan.pdf",
+      "resources": "",
+      "presenter": [
+        {
+          "name": "Tony Tan",
+          "link": "https://www.linkedin.com/in/youxin-t-44b826159"
+        }
+      ]
+    },
+    {
+      "date": "03-11-23",
+      "paperTitle": "Critical Pedagogy in Practice in the Computing Classroom",
+      "paperLink": "https://doi.org/10.1145/3545945.3569840",
+      "slidesLink": "https://github.com/cms-urg/Paper-Reading-Group/blob/6ccbbb2e5d36d16ced6868b49d64031aaa3e99f0/Slides/Critical%20Pedagogy%20in%20Practice%20Evelyn%20Pan.pdf",
+      "resources": "",
+      "presenter": [
+        {
+          "name": "Evelyn Pan",
+          "link": "mailto:evelyn.pan@mail.utoronto.ca"
+        }
+      ]
+    },
+    {
+      "date": "17-11-23",
+      "paperTitle": "Social Engineering Intrusion: A Case Study",
+      "paperLink": "https://doi.org/10.1145/3406601.3406631",
+      "slidesLink": "https://github.com/cms-urg/Paper-Reading-Group/blob/89b39f0b394125ba7889653cf7ede45d851e739a/Slides/Social%20Engineering%20Intrusion.pdf",
+      "resources": "",
+      "presenter": [
+        {
+          "name": "Sadra Setarehdan",
+          "link": "https://www.linkedin.com/in/sadra-setarehdan"
+        }
+      ]
+    },
+    {
+      "date": "24-11-23",
+      "paperTitle": "Exploring Group Dynamics in a Group-Structured Computing Undergraduate Research Experience",
+      "paperLink": "https://dl.acm.org/doi/pdf/10.1145/3501385.3543959",
+      "slidesLink": "https://github.com/cms-urg/Paper-Reading-Group/blob/325a1b9fb2083488128371419c8c020c872fecf9/Slides/Exploring%20Group%20Dynamics%20-%20Yulong.pdf",
+      "resources": "",
+      "presenter": [
+        {
+          "name": "Yulong Liu",
+          "link": "mailto:yulo.liu@mail.utoronto.ca"
+        }
+      ]
+    },
+    {
+      "date": "01-12-23",
+      "paperTitle": "Deep learning models in genomics",
+      "paperLink": "https://doi.org/10.1016/j.csbj.2020.06.017",
+      "slidesLink": "https://github.com/cms-urg/Paper-Reading-Group/blob/4a1484fbe8a6fddfd37c510dd0e891ef96019eda/Slides/DS%20in%20genomics%20-%20Zahra.pdf",
+      "resources": "",
+      "presenter": [
+        {
+          "name": "Zahra Hoseininia",
+          "link": "https://www.linkedin.com/in/zahra-hoseini-nia-7544ab201/"
+        }
+      ]
+    },
+    {
+      "date": "25-01-24",
+      "paperTitle": "Understanding teacher perceptions of assistive technology",
+      "paperLink": "https://doi.org/10.1177/0162643419841550",
+      "slidesLink": "https://github.com/cms-urg/Paper-Reading-Group/blob/e8905588c77ab98ba30c5f382d58e902b1a96cb4/Slides/Teacher%20Perceptions%20-%20Ada%20Cakmak.pdf",
+      "resources": "",
+      "presenter": [
+        {
+          "name": "Ada Cakmak",
+          "link": "linkedin.com/in/nevin-ada-cakmak"
+        }
+      ]
+    },
+    {
+      "date": "15-02-24",
+      "paperTitle": "Post-Quantum Cryptography Neural Network",
+      "paperLink": "https://doi.org/10.1109/ICSSES58299.2023.10201083",
+      "slidesLink": "https://github.com/cms-urg/Paper-Reading-Group/blob/7048f44d2b6dd68d37c21da698c3e3b0b2c9d091/Slides/PQC%20-%20Neural%20Network%20-%20Setarehdan%20-%20Presentation.pdf",
+      "resources": "",
+      "presenter": [
+        {
+          "name": "Sadra Setarehdan",
+          "link": "https://www.linkedin.com/in/sadra-setarehdan"
+        }
+      ]
+    },
+    {
+      "date": "01-03-24",
+      "paperTitle": "The Robots Are Coming: Exploring the Implications of OpenAI Codex on Introductory Programming",
+      "paperLink": "https://doi.org/10.1145/3511861.3511863",
+      "slidesLink": "https://github.com/cms-urg/Paper-Reading-Group/blob/9ab8d7569d660f31c0d1bb59109797661aa214fd/Slides/The%20Robots%20Are%20Coming_Zhiyu.pdf",
+      "resources": "",
+      "presenter": [
+        {
+          "name": "Zhiyu Pan",
+          "link": "https://www.linkedin.com/in/zhiyu-pan-chloe333/"
+        }
+      ]
+    },
+    {
+      "date": "07-03-24",
+      "paperTitle": "Marking Material Interactions with Computer Vision",
+      "paperLink": "https://doi.org/10.1145/3544548.3580643",
+      "slidesLink": "https://github.com/cms-urg/Paper-Reading-Group/blob/188111ccc9178cb17647a4cb013e3a3d92566c54/Slides/Marking%20Material%20Interaction%20-%20Kian.pdf",
+      "resources": "",
+      "presenter": [
+        {
+          "name": "Kian Dianti",
+          "link": "mailto:kian.dianati@mail.utoronto.ca"
+        }
+      ]
+    },
+    {
+      "date": "29-03-24",
+      "paperTitle": "Large language models for mathematical reasoning: Progresses and challenges",
+      "paperLink": "https://doi.org/10.48550/arXiv.2402.00157",
+      "slidesLink": "https://github.com/cms-urg/Paper-Reading-Group/blob/059ad6c5053cc95853502cd5af2a0198b915c5b4/Slides/LLM%20for%20Math%20-%20Ada%20and%20Katherine.pdf",
+      "resources": "",
+      "presenter": [
+        {
+          "name": "Ada Cakmak",
+          "link": "linkedin.com/in/nevin-ada-cakmak"
+        },
+        {
+          "name": "Katherine Lambert",
+          "link": "mailto:katherine.lambert@mail.utoronto.ca"
+        }
+      ]
+    },
+    {
+      "date": "23-05-24",
+      "paperTitle": "Computing Education in the Era of Generative AI",
+      "paperLink": "https://doi.org/10.1145/3624720",
+      "slidesLink": "https://github.com/cms-urg/Paper-Reading-Group/blob/9b86fc2ff490bde0e8a17e5b93cf62a7c8056501/Slides/CE_GenAi_Asad.pdf",
+      "resources": "",
+      "presenter": [
+        {
+          "name": "Asad Mirza",
+          "link": "https://www.linkedin.com/in/asad-mirza-40bb36291/"
+        }
+      ]
+    },
+    {
+      "date": "23-05-24",
+      "paperTitle": "Application of Generative Artificial Intelligence in English Education: Taking ChatGPT System as An Example",
+      "paperLink": "https://doi.org/10.1109/icet59358.2023.10424297",
+      "slidesLink": "https://github.com/cms-urg/Paper-Reading-Group/blob/c4ba97a954f39f6808a2f3688a10901bcb98d80a/Slides/Applications%20of%20Generative%20AI%20-%20Neha%20Prabhu.pdf",
+      "resources": "",
+      "presenter": [
+        {
+          "name": "Neha Prabhu",
+          "link": "mailto:neha.prabu@mail.utoronto.ca"
+        }
+      ]
+    },
+    {
+      "date": "26-06-24",
+      "paperTitle": "Evaluating a Scalable Program for Undergraduate CS Research",
+      "paperLink": "https://doi.org/10.1145/3291279.3339406",
+      "slidesLink": "https://github.com/cms-urg/Paper-Reading-Group/blob/70b5c55add753dbd122ff7efe71b11043cf6fae3/Slides/Undergrad_CS_Research%20-%20Soso.pdf",
+      "resources": "",
+      "presenter": [
+        {
+          "name": "Soso Song",
+          "link": "mailto:soso.song@alum.utoronto.ca"
+        }
+      ]
+    },
+    {
+      "date": "26-06-24",
+      "paperTitle": "Understanding the Role of Large Language Models in Personalizing and Scaffolding Strategies to Combat Academic Procrastination",
+      "paperLink": "https://doi.org/10.1145/3613904.3642081",
+      "slidesLink": "https://github.com/cms-urg/Paper-Reading-Group/blob/786de6c76a5fc843a8a98c83dc323ab1eb9244cf/Slides/LLM%20Procrastination%20-%20Henson.pdf",
+      "resources": "",
+      "presenter": [
+        {
+          "name": "Henson Chen",
+          "link": "https://www.linkedin.com/in/hensonchen/"
+        }
+      ]
+    },
+    {
+      "date": "10-07-24",
+      "paperTitle": "You Get Where You're Looking for: The Impact of Information Sources on Code Security",
+      "paperLink": "https://doi.org/10.1109/SP.2016.25",
+      "slidesLink": "https://github.com/cms-urg/Paper-Reading-Group/blob/786de6c76a5fc843a8a98c83dc323ab1eb9244cf/Slides/Cybersecurity%20-%20Kathrine%20and%20Sadra.pdf",
+      "resources": "",
+      "presenter": [
+        {
+          "name": "Katherine Lambert",
+          "link": "mailto:katherine.lambert@mail.utoronto.ca"
+        },
+        {
+          "name": "Sadra Setarehdan",
+          "link": "https://www.linkedin.com/in/sadra-setarehdan"
+        }
+      ]
+    }
+  ],
+  "2022-2023": [
+    {
+      "date": "27-09-22",
+      "paperTitle": "Effects of segmenting, signalling, and weeding on learning from educational video, Learning, Media and Technology",
+      "paperLink": "https://doi.org/10.1080/17439884.2011.585993",
+      "slidesLink": "https://github.com/cms-urg/Paper-Reading-Group/blob/9640a004f6d9d12a264ad45885bee2299b8cf947/Slides/Effects%20of%20segmenting,%20signaling,%20and%20weeding%20-%20Aditya%20Kulkarni.pdf",
+      "resources": "",
+      "presenter": [
+        {
+          "name": "Aditya Kulkarni",
+          "link": "https://www.linkedin.com/in/aditya-s-kulkarni/"
+        }
+      ]
+    },
+    {
+      "date": "04-10-22",
+      "paperTitle": "Evaluating the effectiveness of flipped classrooms for teaching CS1",
+      "paperLink": "https://doi.org/10.1109/FIE.2013.6684923",
+      "slidesLink": "",
+      "resources": "",
+      "presenter": [
+        {
+          "name": "David Yue",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "date": "25-10-22",
+      "paperTitle": "A case for smaller class size with integrated lab for introductory computer science",
+      "paperLink": "https://doi.org/10.1145/1227504.1227430",
+      "slidesLink": "https://github.com/cms-urg/Paper-Reading-Group/blob/bf53554bebefb22368d53fd50196f56af6a0af23/Slides/URG%20Class%20Size%20-%20Malhar%20Pandya.pdf",
+      "resources": "",
+      "presenter": [
+        {
+          "name": "Malhar Pandya",
+          "link": "https://www.linkedin.com/in/malhar-pandya/"
+        }
+      ]
+    },
+    {
+      "date": "25-10-22",
+      "paperTitle": "From AI ethics principles to data science practice: a reflection and a gap analysis based on recent frameworks and practical experience",
+      "paperLink": "https://doi.org/10.1007/s43681-021-00127-3",
+      "slidesLink": "https://github.com/cms-urg/Paper-Reading-Group/blob/6217285079f08e2a9d78abfcec91ec1f93ef5959/Slides/AI%20Ethics%20Principle%20-%20Anaqi%20Amir.pdf",
+      "resources": "",
+      "presenter": [
+        {
+          "name": "Anaqi Amir",
+          "link": "https://www.linkedin.com/in/anaqi-amir/"
+        }
+      ]
+    },
+    {
+      "date": "08-11-22",
+      "paperTitle": "Peer instruction contributes to self-efficacy in CS1. In Proceedings of the 45th ACM technical symposium on Computer science education",
+      "paperLink": "https://doi.org/10.1145/2538862.2538878",
+      "slidesLink": "https://github.com/cms-urg/Paper-Reading-Group/blob/6217285079f08e2a9d78abfcec91ec1f93ef5959/Slides/Peer%20Instruction%20Study%20-%20Leon%20Lee.pdf",
+      "resources": "",
+      "presenter": [
+        {
+          "name": "Leon Lee",
+          "link": "https://www.linkedin.com/in/leonlee21/"
+        }
+      ]
+    },
+    {
+      "date": "22-11-22",
+      "paperTitle": "Reconsidering the share of a think–pair–share: Emerging limitations, alternatives, and opportunities for research",
+      "paperLink": "https://doi.org/10.1187/cbe.20-08-0200",
+      "slidesLink": "https://github.com/cms-urg/Paper-Reading-Group/blob/6217285079f08e2a9d78abfcec91ec1f93ef5959/Slides/Reconsidering%20the%20Share%20in%20TPS%20-%20Linda%20Lo.pdf",
+      "resources": "",
+      "presenter": [
+        {
+          "name": "Linda Lo",
+          "link": "mailto:adnil3910@gmail.com"
+        }
+      ]
+    },
+    {
+      "date": "01-03-23",
+      "paperTitle": "Evaluating the Efficiency and Effectiveness of Adaptive Parsons Problems",
+      "paperLink": "https://dl.acm.org/doi/10.1145/3230977.3231000",
+      "slidesLink": "https://github.com/cms-urg/Paper-Reading-Group/blob/374da44bb16f21262cd75c840c3ffd6a7c2ea076/Slides/Adaptive%20Parsons%20Problems%20-%20Leah%20Wolfe%20and%20Isabelle%20Milekovic.pdf",
+      "resources": "",
+      "presenter": [
+        {
+          "name": "Leah Wolfe",
+          "link": "mailto:leah.wolfe@mail.utoronto.ca"
+        },
+        {
+          "name": "Isabelle Milekovic",
+          "link": "mailto:i.milekovic@mail.utoronto.ca"
+        }
+      ]
+    },
+    {
+      "date": "29-03-23",
+      "paperTitle": "Programming Is Hard - Or at Least It Used to Be: Educational Opportunities and Challenges of AI Code Generation",
+      "paperLink": "https://doi.org/10.1145/3545945.3569759",
+      "slidesLink": "https://github.com/cms-urg/Paper-Reading-Group/blob/2275da51a9298564f05c85eca486816c49acf3bf/Slides/AI%20Generation%20in%20CS%20Pedagogy.pdf",
+      "resources": "",
+      "presenter": [
+        {
+          "name": "Leon Lee",
+          "link": "https://www.linkedin.com/in/leonlee21/"
+        }
+      ]
+    },
+    {
+      "date": "05-04-23",
+      "paperTitle": "A's for All (As Time and Interest Allow)",
+      "paperLink": "https://doi.org/10.1145/3545945.3569847",
+      "slidesLink": "https://github.com/cms-urg/Paper-Reading-Group/blob/41067f8a66f9241aa59b1cb604578b9a05d9e3b6/Slides/CMS_ReadingGroup_A'sforAll_AnaghaVadarevu.pdf",
+      "resources": "",
+      "presenter": [
+        {
+          "name": "Anagha Vadarevu",
+          "link": "mailto:anagha.vadarevu@mail.utoronto.ca"
+        }
+      ]
+    }
+  ]
+}

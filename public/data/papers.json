@@ -1,0 +1,26 @@
+[
+  {
+    "category": "conference ai",
+    "thumb": "/images/paper1-thumb.jpg",
+    "title": "The Role of AI in Education",
+    "authors": "B. Harrington, S. Clark",
+    "link": "/pdfs/ai-education.pdf",
+    "poster": "/pdfs/ai-education-poster.pdf"
+  },
+  {
+    "category": "journal nlp",
+    "thumb": "/images/paper2-thumb.jpg",
+    "title": "Semantic Networks for Natural Language Processing",
+    "authors": "B. Harrington",
+    "link": "/pdfs/nlp-networks.pdf",
+    "poster": ""
+  },
+  {
+    "category": "education research",
+    "thumb": "/images/paper3-thumb.jpg",
+    "title": "Undergraduate Research in CS Education",
+    "authors": "B. Harrington, A. Doe",
+    "link": "/pdfs/cs-education.pdf",
+    "poster": "/pdfs/cs-education-poster.pdf"
+  }
+]
