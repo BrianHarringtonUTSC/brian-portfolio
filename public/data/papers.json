@@ -1,26 +1,251 @@
 [
   {
-    "category": "conference ai",
-    "thumb": "/images/paper1-thumb.jpg",
-    "title": "The Role of AI in Education",
-    "authors": "B. Harrington, S. Clark",
-    "link": "/pdfs/ai-education.pdf",
-    "poster": "/pdfs/ai-education-poster.pdf"
+    "category": "pubs--csed pubs--urg pubs--recent",
+    "thumb": "/thumbs/specifications.webp",
+    "title": "Specifications and Contract Grading in Computer Science Education",
+    "authors": "Brian Harrington, Abdalaziz Galal, Rohita Nalluri, Faiza Nasiha, and Anagha Vadarevu. 2024. Specifications and Contract Grading in Computer Science Education. In Proceedings of the 55th ACM Technical Symposium on Computer Science Education V. 1 (SIGCSE 2024). Association for Computing Machinery, New York, NY, USA, 477–483.",
+    "link": "https://doi.org/10.1145/3626252.3630929",
+    "poster": "/data/posters/sigcse2024-specifications.pdf"
   },
   {
-    "category": "journal nlp",
-    "thumb": "/images/paper2-thumb.jpg",
-    "title": "Semantic Networks for Natural Language Processing",
-    "authors": "B. Harrington",
-    "link": "/pdfs/nlp-networks.pdf",
+    "category": "pubs--csed pubs--urg pubs--recent",
+    "thumb": "/thumbs/litmap-alternative2.webp",
+    "title": "Alternative Evaluation in CS Education Research: A Systematic Literature Map",
+    "authors": "Brian Harrington, Thezyrie Amarouche, Andrew Aucie, Shreeansha Bhattarai, Yuxin Chen, Raha Gharadaghi, Kaiyi Huang, Jin Jiang, Linda Lo, Maliha Lodi, Rohita Nalluri, Fawaz Omidiya, and Anagha Vadarevu. 2024. Alternative Evaluation in CS Education Research: A Systematic Literature Map. In Proceedings of the 55th ACM Technical Symposium on Computer Science Education V. 2 (SIGCSE 2024). Association for Computing Machinery, New York, NY, USA, 1670–1671.",
+    "link": "https://doi.org/10.1145/3626253.3635537",
+    "poster": "/data/posters/sigcse2024-alternative.pdf"
+  },
+  {
+    "category": "pubs--csed pubs--urg pubs--recent",
+    "thumb": "/thumbs/litmap-covid2.webp",
+    "title": "A Systematic Literature Mapping of COVID-19 Papers in Computer Science Education",
+    "authors": "Brian Harrington, Sharon Alex, Leon Lee, Colin Lin, Zixiao Ren, Youxin Tan, Conroy Trinh, Shengsong Xu, and Austin Yang. 2024. A Systematic Literature Mapping of COVID-19 Papers in Computer Science Education. In Proceedings of the 55th ACM Technical Symposium on Computer Science Education V. 2 (SIGCSE 2024). Association for Computing Machinery, New York, NY, USA, 1668–1669.",
+    "link": "https://doi.org/10.1145/3626253.3635538",
+    "poster": "/data/posters/sigcse2024-covid.pdf"
+  },
+  {
+    "category": "pubs--csed pubs--recent",
+    "thumb": "/thumbs/notenough.webp",
+    "title": "'I Am Not Enough': Impostor Phenomenon Experiences of University Students",
+    "authors": "Angela Zavaleta Bernuy, Anna Ly, Brian Harrington, Michael Liut, Sadia Sharmin, Lisa Zhang, and Andrew Petersen. 2023. 'I Am Not Enough': Impostor Phenomenon Experiences of University Students. In Proceedings of the 2023 Conference on Innovation and Technology in Computer Science Education V. 1 (ITiCSE 2023). Association for Computing Machinery, New York, NY, USA, 313–319.",
+    "link": "https://doi.org/10.1145/3587102.3588779",
     "poster": ""
   },
+
   {
-    "category": "education research",
-    "thumb": "/images/paper3-thumb.jpg",
-    "title": "Undergraduate Research in CS Education",
-    "authors": "B. Harrington, A. Doe",
-    "link": "/pdfs/cs-education.pdf",
-    "poster": "/pdfs/cs-education-poster.pdf"
+    "category": "pubs--csed pubs--urg",
+    "thumb": "/thumbs/litmap-covid.webp",
+    "title": "Finding and Categorizing COVID-19 Papers in CS Education",
+    "authors": "Brian Harrington, Aditya Kulkarni, Zixiao Ren, Conroy Trinh, Raha Gharadaghi, Thezyrie Amarouche, Ansh Aneel, Anand Karki, Seemin Syed, and David Yue. 2023. Finding and Categorizing COVID-19 Papers in CS Education. In Proceedings of the 54th ACM Technical Symposium on Computer Science Education V. 2 (SIGCSE 2023). Association for Computing Machinery, New York, NY, USA, 1342.",
+    "link": "https://doi.org/10.1145/3545947.3576288",
+    "poster": "/data/posters/sigcse2023-litmap-covid.pdf",
+    "": ""
+  },
+  {
+    "category": "pubs--csed pubs--urg",
+    "thumb": "/thumbs/remotepair.webp",
+    "title": "Evaluating Solo vs Pair Programming in an Online Setting for Introductory Programming Students",
+    "authors": "Mustafa Hafeez, Anand Karki, Yara Radwan, Anis Saha, Angela Zavaleta Bernuy, and Brian Harrington. 2023. Evaluating Solo vs Pair Programming in an Online Setting for Introductory Programming Students. In Proceedings of the 54th ACM Technical Symposium on Computer Science Education V. 2 (SIGCSE 2023). Association for Computing Machinery, New York, NY, USA, 1333.",
+    "link": "https://doi.org/10.1145/3545947.3576279",
+    "poster": "/data/posters/sigcse2023-remotepair.pdf",
+    "": ""
+  },
+  {
+    "category": "pubs--csed pubs--urg",
+    "thumb": "/thumbs/examwrappers.webp",
+    "title": "Virtual Exam Wrappers: A Pilot Study for Online Replication",
+    "authors": "Abhivyakti Ahuja, Varun Datta, William Song, and Brian Harrington. 2023. Virtual Exam Wrappers: A Pilot Study for Online Replication. In Proceedings of the 54th ACM Technical Symposium on Computer Science Education V. 2 (SIGCSE 2023). Association for Computing Machinery, New York, NY, USA, 1424.",
+    "link": "https://doi.org/10.1145/3545947.3576368",
+    "poster": "/data/posters/sigcse2023-examwrappers.pdf",
+    "": ""
+  },
+  {
+    "category": "pubs--csed",
+    "thumb": "/thumbs/additional.webp",
+    "title": "Additional Evidence for the Prevalence of the Impostor Phenomenon in Computing",
+    "authors": "Angela Zavaleta Bernuy, Anna Ly, Brian Harrington, Michael Liut, Andrew Petersen, Sadia Sharmin, and Lisa Zhang. 2022. Additional Evidence for the Prevalence of the Impostor Phenomenon in Computing. In Proceedings of the 53rd ACM Technical Symposium on Computer Science Education - Volume 1 (SIGCSE 2022), Vol. 1. Association for Computing Machinery, New York, NY, USA, 654–660.",
+    "link": "https://doi.org/10.1145/3478431.3499282",
+    "poster": "",
+    "": ""
+  },
+  {
+    "category": "pubs--csed",
+    "thumb": "/thumbs/fitbreaks.webp",
+    "title": "Exploring Lightweight Practices to Support Students' Well-being",
+    "authors": "Oluwakemi Ola and Brian Harrington. 2022. Exploring Lightweight Practices to Support Students' Well-being. In Proceedings of the 53rd ACM Technical Symposium on Computer Science Education V. 2 (SIGCSE 2022). Association for Computing Machinery, New York, NY, USA, 1070‚Äì1071.",
+    "link": "https://dl.acm.org/doi/abs/10.1145/3478432.3499031",
+    "poster": "/data/posters/sigcse2021-pybuggy.pdf",
+    "": ""
+  },
+  {
+    "category": "pubs--csed pubs--wg pubs--recent",
+    "thumb": "/thumbs/bpc.webp",
+    "title": "Evidence for Teaching Practices that Broaden Participation for Women in Computing",
+    "authors": "Briana B. Morrison, Beth A. Quinn, Steven Bradley, Kevin Buffardi, Brian Harrington, Helen H. Hu, Maria Kallia, Fiona McNeill, Oluwakemi Ola, Miranda Parker, Jennifer Rosato, and Jane Waite. 2022. Evidence for Teaching Practices that Broaden Participation for Women in Computing. In Proceedings of the 2021 Working Group Reports on Innovation and Technology in Computer Science Education (ITiCSE-WGR '21). Association for Computing Machinery, New York, NY, USA, 57‚Äì131.",
+    "link": "https://dl.acm.org/doi/abs/10.1145/3502870.3506568",
+    "poster": "",
+    "": ""
+  },
+  {
+    "category": "pubs--csed pubs--urg",
+    "thumb": "/thumbs/pybuggy.webp",
+    "title": "PyBuggy: Testing the Effects of Enhanced Error Messages on Novice Programmers",
+    "authors": "Rachel D'souza, Angela Zavaleta Bernuy, and Brian Harrington. 2021. PyBuggy: Testing the Effects of Enhanced Error Messages on Novice Programmers. In Proceedings of the 52nd ACM Technical Symposium on Computer Science Education (SIGCSE '21). Association for Computing Machinery, New York, NY, USA, 1346.",
+    "link": "https://dl.acm.org/doi/abs/10.1145/3017680.3017704",
+    "poster": "/data/posters/sigcse2021-pybuggy.pdf",
+    "": ""
+  },
+  {
+    "category": "pubs--csed pubs--wg",
+    "thumb": "/thumbs/peerreview.webp",
+    "title": "Mapping the Landscape of Peer Review in Computing Education Research",
+    "authors": "Marian Petre, Kate Sanders, Robert McCartney, Marzieh Ahmadzadeh, Cornelia Connolly, Sally Hamouda, Brian Harrington, J√©r√©mie Lumbroso, Joseph Maguire, Lauri Malmi, Monica M. McGill, and Jan Vahrenhold. 2020. Mapping the Landscape of Peer Review in Computing Education Research. In Proceedings of the Working Group Reports on Innovation and Technology in Computer Science Education (ITiCSE-WGR '20). Association for Computing Machinery, New York, NY, USA, 173‚Äì209.",
+    "link": "https://doi.org/10.1145/3437800.3439207",
+    "poster": "",
+    "": ""
+  },
+  {
+    "category": "pubs--csed pubs--urg",
+    "thumb": "/thumbs/surveys.webp",
+    "title": "What are We Asking our Students? A Literature Map of Student Surveys in Computer Science Education",
+    "authors": "Angela Zavaleta Bernuy and Brian Harrington. 2020. What are We Asking our Students? A Literature Map of Student Surveys in Computer Science Education. In Proceedings of the 2020 ACM Conference on Innovation and Technology in Computer Science Education (ITiCSE '20). Association for Computing Machinery, New York, NY, USA, 418‚Äì424.",
+    "link": "https://doi.org/10.1145/3341525.3387383",
+    "poster": "/data/posters/sigcse2020-surveys.pdf",
+    "": ""
+  },
+  {
+    "category": "pubs--csed pubs--urg",
+    "thumb": "/thumbs/inverted.webp",
+    "title": "An Analysis of Student Preferences for Inverted vs Traditional Lecture",
+    "authors": "Harrington, Brian, Mohamed Moustafa, Jingyiran Li, Marzieh Ahmadzdeh, and Nick Cheng. An Analysis of Student Preferences for Inverted vs Traditional Lecture.\" Psychology of Programming Interest Group Workshop 2020.",
+    "link": "https://www.ppig.org/files/2020-PPIG-31st-harrington.pdf",
+    "poster": "/data/posters/ppig2020-capsized.pdf",
+    "": ""
+  },
+  {
+    "category": "pubs--csed pubs--urg",
+    "thumb": "/thumbs/codedetective.webp",
+    "title": "Developing Testing-First Labs For a Less Intimidating Introductory CS Experience.",
+    "authors": "Bernuy, Angela M. Zavaleta, and Brian Harrington. Developing Testing-First Labs For a Less Intimidating Introductory CS Experience.\" Psychology of Programming Interest Group Workshop 2020.",
+    "link": "https://www.ppig.org/files/2020-PPIG-31st-bernuy.pdf",
+    "poster": "",
+    "": ""
+  },
+  {
+    "category": "pubs--csed pubs--wg",
+    "thumb": "/thumbs/errors.webp",
+    "title": "Compiler error messages considered unhelpful: The landscape of text-based programming error message research",
+    "authors": "Brett A. Becker, Paul Denny, Raymond Pettit, Durell Bouchard, Dennis J. Bouvier, Brian Harrington, Amir Kamil, Amey Karkare, Chris McDonald, Peter-Michael Osera, Janice L. Pearce, and James Prather. 2019. Compiler Error Messages Considered Unhelpful: The Landscape of Text-Based Programming Error Message Research. In Proceedings of the Working Group Reports on Innovation and Technology in Computer Science Education (ITiCSE-WGR '19). Association for Computing Machinery, New York, NY, USA, 177‚Äì210.",
+    "link": "https://doi.org/10.1145/3344429.3372508",
+    "poster": "",
+    "": ""
+  },
+  {
+    "category": "pubs--csed pubs--urg",
+    "thumb": "/thumbs/questionordering.webp",
+    "title": "On the Effect of Question Ordering on Performance and Confidence in Computer Science Examinations",
+    "authors": "Brian Harrington, Jingyiran Li, Mohamed Moustafa, Marzieh Ahmadzadeh, and Nick Cheng. 2019. On the Effect of Question Ordering on Performance and Confidence in Computer Science Examinations. In Proceedings of the 50th ACM Technical Symposium on Computer Science Education (SIGCSE '19). Association for Computing Machinery, New York, NY, USA, 620‚Äì626.",
+    "link": "https://doi.org/10.1145/3287324.3287398",
+    "poster": "/data/posters/sigcse2019-ordering.pdf",
+    "": ""
+  },
+  {
+    "category": "pubs--csed pubs--urg",
+    "thumb": "/thumbs/droprate.webp",
+    "title": "A Statistical Analysis of Drop Rates in Introductory Computer Science by Gender and Partial Grade",
+    "authors": "Jikai Long and Brian Harrington. 2019. A Statistical Analysis of Drop Rates in Introductory Computer Science by Gender and Partial Grade. In Proceedings of the Western Canadian Conference on Computing Education (WCCCE '19). Association for Computing Machinery, New York, NY, USA, Article 13, 1‚Äì2.",
+    "link": "https://doi.org/10.1145/3314994.3325081",
+    "poster": "",
+    "": ""
+  },
+  {
+    "category": "pubs--csed pubs--urg",
+    "thumb": "/thumbs/pybuggy2.webp",
+    "title": "A Mixed-Methods Study of Novice Programmer Interaction with Python Error Messages",
+    "authors": "Rachel D'souza, Mahima Bhayana, Marzieh Ahmadzadeh, and Brian Harrington. 2019. A Mixed-Methods Study of Novice Programmer Interaction with Python Error Messages. In Proceedings of the Western Canadian Conference on Computing Education (WCCCE '19). Association for Computing Machinery, New York, NY, USA, Article 15, 1‚Äì2.",
+    "link": "https://doi.org/10.1145/3314994.3325090",
+    "poster": "",
+    "": ""
+  },
+  {
+    "category": "pubs--csed pubs--urg",
+    "thumb": "/thumbs/ifcat.webp",
+    "title": "Immediate Feedback Collaborative Code Tracing",
+    "authors": "Jun Zheng, Sohee Kang, and Brian Harrington. 2019. Immediate Feedback Collaborative Code Tracing. In Proceedings of the Western Canadian Conference on Computing Education (WCCCE '19). Association for Computing Machinery, New York, NY, USA, Article 12, 1‚Äì2.",
+    "link": "https://doi.org/10.1145/3314994.3325087",
+    "poster": "",
+    "": ""
+  },
+  {
+    "category": "pubs--csed pubs--urg",
+    "thumb": "/thumbs/ia.webp",
+    "title": "Identity Atheneum: Combining User Management, Analytics and Gamification in a Multi Tool Hub",
+    "authors": "Jun Zheng and Brian Harrington. 2019. Identity Atheneum: Combining User Management, Analytics and Gamification in a Multi Tool Hub. In Proceedings of the 5th ACM SPLICE Project Workshop in conjunction with ICER2019 (SPLICE ‚Äô19), August 11, 2019, Toronto Canada",
+    "link": "https://cssplice.github.io/ICER19/proc/SPLICE_2019_ICER_paper_8.pdf",
+    "poster": "",
+    "": ""
+  },
+  {
+    "category": "pubs--csed pubs--urg",
+    "thumb": "/thumbs/predictedgrade.webp",
+    "title": "Gender, confidence, and mark prediction in CS examinations",
+    "authors": "Brian Harrington, Shichong Peng, Xiaomeng Jin, and Minhaz Khan. 2018. Gender, confidence, and mark prediction in CS examinations. In Proceedings of the 23rd Annual ACM Conference on Innovation and Technology in Computer Science Education (ITiCSE 2018). Association for Computing Machinery, New York, NY, USA, 230‚Äì235.",
+    "link": "https://doi.org/10.1145/3197091.3197116",
+    "poster": "/data/posters/iticse2018-gender.pdf",
+    "": ""
+  },
+  {
+    "category": "pubs--csed pubs--urg",
+    "thumb": "/thumbs/fitbreaks2.webp",
+    "title": "Fit-breaks: incorporating physical activity breaks in introductory CS lectures",
+    "authors": "Alyona Koulanova, Ary Maharaj, Brian Harrington, and Jessica Dere. 2018. Fit-breaks: incorporating physical activity breaks in introductory CS lectures. In Proceedings of the 23rd Annual ACM Conference on Innovation and Technology in Computer Science Education (ITiCSE 2018). Association for Computing Machinery, New York, NY, USA, 260‚Äì265.",
+    "link": "https://doi.org/10.1145/3197091.3197115",
+    "poster": "/data/posters/scapps2018-fitbreaks.pdf",
+    "": ""
+  },
+  {
+    "category": "pubs--csed",
+    "thumb": "/thumbs/hierarchy.webp",
+    "title": "Tracing vs. Writing Code: Beyond the Learning Hierarchy",
+    "authors": "Brian Harrington and Nick Cheng. 2018. Tracing vs. Writing Code: Beyond the Learning Hierarchy. In Proceedings of the 49th ACM Technical Symposium on Computer Science Education (SIGCSE '18). Association for Computing Machinery, New York, NY, USA, 423‚Äì428.",
+    "link": "https://doi.org/10.1145/3159450.3159530",
+    "poster": "",
+    "": ""
+  },
+  {
+    "category": "pubs--csed pubs--urg",
+    "thumb": "/thumbs/tracademic.webp",
+    "title": "TrAcademic: Improving Participation and Engagement in CS1/CS2 with Gamified Practicals",
+    "authors": "Brian Harrington and Ayaan Chaudhry. 2017. TrAcademic: Improving Participation and Engagement in CS1/CS2 with Gamified Practicals. In Proceedings of the 2017 ACM Conference on Innovation and Technology in Computer Science Education (ITiCSE '17). Association for Computing Machinery, New York, NY, USA, 347‚Äì352.",
+    "link": "https://doi.org/10.1145/3059009.3059052",
+    "poster": "/data/posters/iticse2017-tracademic.pdf",
+    "": ""
+  },
+  {
+    "category": "pubs--csed",
+    "thumb": "/thumbs/mangler.webp",
+    "title": "The Code Mangler: Evaluating Coding Ability Without Writing any Code",
+    "authors": "Nick Cheng and Brian Harrington. 2017. The Code Mangler: Evaluating Coding Ability Without Writing any Code. In Proceedings of the 2017 ACM SIGCSE Technical Symposium on Computer Science Education (SIGCSE '17). Association for Computing Machinery, New York, NY, USA, 123‚Äì128.",
+    "link": "https://dl.acm.org/doi/abs/10.1145/3017680.3017704",
+    "poster": "/data/posters/sigcse2017-codemangler.pdf",
+    "": ""
+  },
+  {
+    "category": "pubs--asknet",
+    "thumb": "/thumbs/asknet2.webp",
+    "title": "A semantic network approach to measuring relatedness",
+    "authors": "Harrington, Brian. A semantic network approach to measuring relatedness.\" Proceedings of the 23rd International Conference on Computational Linguistics (Coling 2010).",
+    "link": "https://aclanthology.org/C10-2041.pdf",
+    "poster": "",
+    "": ""
+  },
+  {
+    "category": "pubs--asknet",
+    "thumb": "/thumbs/asknet.webp",
+    "title": "Asknet: Creating and Evaluating Large Scale Integrated Semantic Networks",
+    "authors": "Harrington, Brian, and Stephen Clark. Asknet: Creating and evaluating large scale integrated semantic networks.\" International Journal of Semantic Computing 2.03 (2008): 343-364.",
+    "link": "https://www.researchgate.net/profile/Brian-Harrington-9/publication/4365323_ASKNet_Creating_and_Evaluating_Large_Scale_Integrated_Semantic_Networks/links/56f1845c08aee9c94cfd6ca0/ASKNet-Creating-and-Evaluating-Large-Scale-Integrated-Semantic-Networks.pdf",
+    "poster": "/data/posters/aaai2007-asknet.pdf",
+    "": ""
   }
 ]

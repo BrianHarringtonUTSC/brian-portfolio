@@ -27,6 +27,11 @@ const Layout: FC<LayoutProps> = ({ children }) => {
               </Link>
             </li>
             <li>
+              <Link href="/students" className="hover:underline">
+                Students
+              </Link>
+            </li>
+            <li>
               <Link href="/contact" className="hover:underline">
                 Contact
               </Link>

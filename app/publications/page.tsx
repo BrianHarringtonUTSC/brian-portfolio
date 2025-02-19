@@ -48,14 +48,21 @@ export default function PublicationsPage() {
                   .join(" ")}`}
               >
                 {/* Thumbnail */}
-                <div className="w-full h-40 mb-4 flex justify-center items-center">
-                  <Image
-                    src={publication.thumb}
-                    alt={publication.title}
-                    width={200}
-                    height={150}
-                    className="object-cover rounded-lg"
-                  />
+                <div className="relative w-full h-40 mb-4 overflow-hidden">
+                  <Link
+                    href={publication.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block"
+                  >
+                    <Image
+                      src={publication.thumb}
+                      alt={publication.title}
+                      fill
+                      className="object-cover rounded-lg filter brightness-90 transition-all duration-300 hover:brightness-100"
+                    />
+                    <div className="absolute rounded-lg inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+                  </Link>
                 </div>
 
                 {/* Publication Details */}
