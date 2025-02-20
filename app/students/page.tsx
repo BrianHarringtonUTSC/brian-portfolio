@@ -15,12 +15,12 @@ export default function StudentsPage() {
 
   return (
     <Layout>
-      <main className="max-w-6xl mx-auto px-6 py-12">
+      <main className="max-w-6xl mx-auto px-6 py-8">
         <h1 className="text-4xl font-bold text-primary mb-6 text-center">
           Past Students
         </h1>
         <p className="text-lg text-muted-foreground text-center mb-8">
-          Meet my past students.
+          Amazing Students at the University of Toronto
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">

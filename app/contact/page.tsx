@@ -5,7 +5,7 @@ import Layout from "@/components/layout";
 export default function ContactPage() {
   return (
     <Layout>
-      <main className="max-w-4xl mx-auto px-6 py-12 flex flex-col md:flex-row items-center">
+      <main className="max-w-4xl mx-auto px-6 py-8 flex flex-col md:flex-row items-center">
         {/* Fun Graphic */}
         <div className="w-full md:w-1/2 flex justify-center">
           <Image

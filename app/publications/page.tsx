@@ -27,7 +27,7 @@ export default function PublicationsPage() {
 
   return (
     <Layout>
-      <main className="max-w-6xl mx-auto px-6 py-12">
+      <main className="max-w-6xl mx-auto px-6 py-8">
         <h1 className="text-4xl font-bold text-primary mb-6 text-center">
           Publications
         </h1>

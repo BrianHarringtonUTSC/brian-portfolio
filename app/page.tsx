@@ -11,7 +11,7 @@ import news from "@/public/data/news.json";
 export default function Home() {
   return (
     <Layout>
-      <div className="flex flex-col items-center space-y-8">
+      <div className="flex flex-col items-center space-y-4">
         <Image
           src="/img/brian_headshot.webp?width=200&height=200"
           alt="Dr. Brian Harrington"
@@ -19,7 +19,7 @@ export default function Home() {
           height={200}
           className="rounded-full"
         />
-        <h1 className="text-4xl font-bold">Dr. Brian Harrington</h1>
+        <h1 className="text-4xl font-bold">Brian Harrington</h1>
         <p className="text-xl text-center max-w-2xl">
           Professor, Teaching Stream <br />
           Department of Computer and Mathematical Sciences <br />
@@ -91,7 +91,7 @@ export default function Home() {
                     width={800}
                     height={400}
                     className="w-full h-60 object-cover"
-                    priority // Loads images faster
+                    priority
                   />
                   <CardHeader>
                     <CardTitle>{item.title}</CardTitle>

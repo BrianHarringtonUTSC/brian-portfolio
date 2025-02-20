@@ -33,14 +33,14 @@ export default function ReadingGroupPage() {
         setSchedule(data);
         const availableYears = Object.keys(data);
         setYears(availableYears);
-        setActiveYear(availableYears[0]); // Default to the first year
+        setActiveYear(availableYears[0]);
       })
       .catch((error) => console.error("Error fetching schedule:", error));
   }, []);
 
   return (
     <Layout>
-      <main className="max-w-6xl mx-auto px-6 py-12">
+      <main className="max-w-6xl mx-auto px-6 py-8">
         <h1 className="text-4xl font-bold text-primary mb-6 text-center">
           CMS-URG Paper Reading Group
         </h1>

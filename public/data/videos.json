@@ -1,0 +1,28 @@
+{
+  "videos": [
+    {
+      "id": "7lY16KvM2M8",
+      "title": "Voices of CMS Podcast",
+      "platform": "YouTube",
+      "url": "https://youtu.be/7lY16KvM2M8"
+    },
+    {
+      "id": "BvBdH5AKlNc",
+      "title": "The Reset Button: The Great Fantasy of Academia",
+      "platform": "YouTube",
+      "url": "https://youtu.be/BvBdH5AKlNc"
+    },
+    {
+      "id": "52JKyV3ApOs",
+      "title": "I have one of the best jobs in the world!",
+      "platform": "YouTube",
+      "url": "https://youtu.be/52JKyV3ApOs"
+    },
+    {
+      "id": "VEJsijYmVk0",
+      "title": "DS3 Responsible AI Panel!",
+      "platform": "YouTube",
+      "url": "https://youtu.be/VEJsijYmVk0"
+    }
+  ]
+}
