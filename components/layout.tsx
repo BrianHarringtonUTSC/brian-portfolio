@@ -6,7 +6,8 @@ import {
   FaOrcid,
   FaLinkedin,
   FaReddit,
-} from "react-icons/fa";
+  FaGoogleScholar,
+} from "react-icons/fa6";
 
 interface LayoutProps {
   children: ReactNode;
@@ -37,6 +38,11 @@ const icons = [
     href: "https://www.reddit.com/user/BrianHarrington/",
     icon: <FaReddit style={{ fontSize: "2rem" }} />,
     label: "Reddit",
+  },
+  {
+    href: "https://scholar.google.com/citations?user=uYCeHkcAAAAJ&hl=en",
+    icon: <FaGoogleScholar style={{ fontSize: "2rem" }} />,
+    label: "Google Scholar",
   },
 ];
 

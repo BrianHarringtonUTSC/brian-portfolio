@@ -32,9 +32,18 @@ export default function PublicationsPage() {
           Publications
         </h1>
 
-        <p className="text-lg text-muted-foreground text-center mb-8">
-          A collection of research papers and publications authored by Professor
-          Brian Harrington.
+        <p className="text-lg text-muted-foreground text-center">
+          A collection of research papers and publications authored by me
+        </p>
+
+        <p className="text-muted-foreground text-center mb-8">
+          A complete list of publications can be found{" "}
+          <Link
+            className="underline"
+            href="https://scholar.google.com/citations?user=uYCeHkcAAAAJ&hl=en"
+          >
+            here
+          </Link>
         </p>
 
         {/* Publications Grid */}
