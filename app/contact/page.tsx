@@ -9,10 +9,10 @@ export default function ContactPage() {
         {/* Fun Graphic */}
         <div className="w-full md:w-1/2 flex justify-center">
           <Image
-            src="/img/contact.svg?width=inherit&height=inherit"
+            src="/img/contact.webp?width=500&height=500"
             alt="Contact Graphic"
-            width={300}
-            height={300}
+            width={500}
+            height={500}
             className="object-contain"
           />
         </div>

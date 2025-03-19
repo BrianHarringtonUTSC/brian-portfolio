@@ -36,7 +36,7 @@ const VideosPage: React.FC = () => {
         <p className="text-lg text-muted-foreground text-center mb-8">
           Some videos featuring me!
         </p>
-        <div className="grid grid-cols-4 md:grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {currentItems.map((video) => (
             <VideoCard key={video.id} video={video} />
           ))}
