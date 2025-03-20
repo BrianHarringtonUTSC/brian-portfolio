@@ -48,16 +48,10 @@ export default function Home() {
             <a className="underline" href="https://www.cs.ox.ac.uk/">
               Oxford University Department of Computer Science
             </a>{" "}
-            under the supervision of{" "}
-            <a
-              className="underline"
-              href="https://cambridgequantum.com/scientist/stephen-clark/"
-            >
-              Dr. Stephen Clark.
-            </a>{" "}
-            My research focused on the intersection of Artificial Intelligence
-            and Natural Language Processing, in particular, the automated
-            construction of Semantic Network with the ASKNet system.
+            under the supervision of Dr. Stephen Clark. My research focused on
+            the intersection of Artificial Intelligence and Natural Language
+            Processing, in particular, the automated construction of Semantic
+            Network with the ASKNet system.
           </p>
           <p className="text-base text-foreground leading-relaxed mt-4">
             Prior to joining UTSC, I held a Research and Tutorial Fellowship in
