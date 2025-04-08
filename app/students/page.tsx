@@ -20,7 +20,7 @@ export default function StudentsPage() {
           Past Students
         </h1>
         <p className="text-lg text-muted-foreground text-center mb-8">
-          Amazing students I've had the pleasure of working with during my time at UTSC
+          Amazing students I&apos;ve had the pleasure of working with during my time at UTSC
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
