@@ -83,7 +83,7 @@ const Layout: FC<LayoutProps> = ({ children }) => {
             </li>
             <li>
               <Link href="/reading-group" className="hover:underline">
-                Reading Group
+                Undergraduate Research
               </Link>
             </li>
             <li>
@@ -132,7 +132,7 @@ const Layout: FC<LayoutProps> = ({ children }) => {
                   className="block hover:underline"
                   onClick={() => setNavOpen(false)}
                 >
-                  Reading Group
+                  Undergraduate Research
                 </Link>
               </li>
               <li>
