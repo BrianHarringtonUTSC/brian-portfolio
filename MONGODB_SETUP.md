@@ -37,19 +37,31 @@ sudo systemctl start mongodb
 
 ## Environment Setup
 
-1. **Update `.env.local`** with your MongoDB connection string:
+1. **Update `.env.local`** with your MongoDB connection string and admin API key:
 
 For local MongoDB:
 
 ```
 MONGODB_URI=mongodb://localhost:27017/brian-portfolio
+ADMIN_API_KEY=your-secure-api-key-here
+NEXT_PUBLIC_ADMIN_API_KEY=your-secure-api-key-here
 ```
 
 For MongoDB Atlas:
 
 ```
 MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/brian-portfolio
+ADMIN_API_KEY=your-secure-api-key-here
+NEXT_PUBLIC_ADMIN_API_KEY=your-secure-api-key-here
 ```
+
+**Important Security Notes:**
+
+- Replace `your-secure-api-key-here` with a strong, randomly generated key (e.g., 32+ characters)
+- The `ADMIN_API_KEY` is used for server-side validation of admin operations
+- The `NEXT_PUBLIC_ADMIN_API_KEY` is used by the client-side admin interface
+- Both keys should be identical for the simple authentication to work
+- For production, consider implementing a more robust authentication system (OAuth, JWT, etc.)
 
 ## Migration Steps
 
@@ -112,6 +124,22 @@ Access the admin interface at `/admin/prg-sessions` to:
 - Add new sessions
 - Edit existing sessions
 - Delete sessions
+
+### Authentication
+
+The admin interface is protected by API key authentication:
+
+1. When you first visit `/admin/prg-sessions`, you'll see a login form
+2. Enter the API key that matches your `ADMIN_API_KEY` environment variable
+3. Once authenticated, you can perform all admin operations
+4. Use the "Logout" button to clear your session
+
+**Security Features:**
+
+- All write operations (POST, PUT, DELETE) require valid API key
+- Read operations (GET) remain public for the main reading group page
+- API key is validated on the server side for each protected request
+- Client-side authentication state is maintained during the session
 
 ## Database Schema
 

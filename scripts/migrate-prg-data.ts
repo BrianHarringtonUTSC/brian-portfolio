@@ -1,5 +1,5 @@
-import dotenv from "dotenv";
-// Load environment variables
+// Load environment variables FIRST before any other imports
+const dotenv = require("dotenv");
 dotenv.config({ path: ".env.local" });
 
 import fs from "fs";

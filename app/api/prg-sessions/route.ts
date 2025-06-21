@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import dbConnect from "@/lib/mongodb";
 import PRGSession from "@/lib/models/PRGSession";
+import { validateApiKey, validateSession } from "@/lib/auth";
 
 interface SessionResponse {
   date: string;
@@ -55,6 +56,14 @@ export async function GET(request: NextRequest) {
 }
 
 export async function POST(request: NextRequest) {
+  // Validate session for write operations (try NextAuth first, fallback to API key)
+  const hasValidSession = await validateSession(request);
+  const hasValidApiKey = !hasValidSession ? validateApiKey(request) : false;
+
+  if (!hasValidSession && !hasValidApiKey) {
+    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  }
+
   try {
     await dbConnect();
 
