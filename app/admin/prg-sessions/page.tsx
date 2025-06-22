@@ -1,8 +1,6 @@
 "use client";
 
 import React, { useState, useEffect, useCallback } from "react";
-import { useSession, signOut } from "next-auth/react";
-import { useRouter } from "next/navigation";
 import Layout from "@/components/layout";
 
 interface Presenter {
@@ -54,8 +52,6 @@ const LoadingSpinner = () => (
 );
 
 export default function AdminPRGSessionsPage() {
-  const { data: session, status } = useSession();
-  const router = useRouter();
   const [sessions, setSessions] = useState<Session[]>([]);
   const [loading, setLoading] = useState(true);
   const [editingSession, setEditingSession] = useState<Session | null>(null);
@@ -71,19 +67,6 @@ export default function AdminPRGSessionsPage() {
     (year: string) => /^\d{4}-\d{4}$/.test(year),
     []
   );
-
-  // Redirect to login if not authenticated
-  useEffect(() => {
-    if (status === "loading") return; // Still loading
-    if (!session) {
-      router.push("/admin/login");
-      return;
-    }
-    if ((session.user as any)?.role !== "admin") {
-      router.push("/");
-      return;
-    }
-  }, [session, status, router]);
 
   const fetchSessions = useCallback(async () => {
     try {
@@ -141,9 +124,7 @@ export default function AdminPRGSessionsPage() {
 
         const response = await fetch(url, {
           method: editingSession._id ? "PUT" : "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
+          headers: { "Content-Type": "application/json" },
           body: JSON.stringify(editingSession),
         });
 
@@ -234,31 +215,9 @@ export default function AdminPRGSessionsPage() {
     setShowForm(true);
   }, []);
 
-  const handleSignOut = async () => {
-    await signOut({ callbackUrl: "/" });
-  };
-
   useEffect(() => {
-    if (session && (session.user as any)?.role === "admin") {
-      fetchSessions();
-    }
-  }, [fetchSessions, session]);
-
-  // Show loading while checking authentication
-  if (status === "loading") {
-    return (
-      <Layout>
-        <main className="max-w-6xl mx-auto px-6 py-8">
-          <LoadingSpinner />
-        </main>
-      </Layout>
-    );
-  }
-
-  // Redirect if not authenticated (this should not render due to useEffect redirect)
-  if (!session || (session.user as any)?.role !== "admin") {
-    return null;
-  }
+    fetchSessions();
+  }, [fetchSessions]);
 
   if (loading) {
     return (
@@ -274,28 +233,15 @@ export default function AdminPRGSessionsPage() {
     <Layout>
       <main className="max-w-6xl mx-auto px-6 py-8">
         <div className="flex justify-between items-center mb-6">
-          <div>
-            <h1 className="text-4xl font-bold text-primary">
-              PRG Sessions Admin
-            </h1>
-            <p className="text-sm text-gray-600 mt-1">
-              Welcome, {session.user?.name || session.user?.email}
-            </p>
-          </div>
-          <div className="flex gap-2">
-            <button
-              onClick={handleOpenAddModal}
-              className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors"
-            >
-              Add New Session
-            </button>
-            <button
-              onClick={handleSignOut}
-              className="px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600 transition-colors"
-            >
-              Sign Out
-            </button>
-          </div>
+          <h1 className="text-4xl font-bold text-primary">
+            PRG Sessions Admin
+          </h1>
+          <button
+            onClick={handleOpenAddModal}
+            className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors"
+          >
+            Add New Session
+          </button>
         </div>
 
         {showForm && editingSession && (
@@ -385,7 +331,7 @@ export default function AdminPRGSessionsPage() {
 
               <div>
                 <label className="block text-sm font-medium mb-1">
-                  Slides Link (Optional)
+                  Slides Link (optional)
                 </label>
                 <input
                   type="url"
@@ -402,7 +348,7 @@ export default function AdminPRGSessionsPage() {
 
               <div>
                 <label className="block text-sm font-medium mb-1">
-                  Resources (Optional)
+                  Resources (optional)
                 </label>
                 <textarea
                   value={editingSession.resources || ""}
@@ -418,171 +364,117 @@ export default function AdminPRGSessionsPage() {
               </div>
 
               <div>
-                <div className="flex justify-between items-center mb-2">
-                  <label className="block text-sm font-medium">
-                    Presenters
-                  </label>
-                  <button
-                    type="button"
-                    onClick={handleAddPresenter}
-                    className="px-3 py-1 bg-green-500 text-white text-sm rounded hover:bg-green-600"
-                  >
-                    Add Presenter
-                  </button>
-                </div>
+                <label className="block text-sm font-medium mb-2">
+                  Presenters
+                </label>
                 {editingSession.presenter.map((presenter, index) => (
-                  <div
-                    key={`edit-presenter-${index}`}
-                    className="grid grid-cols-1 md:grid-cols-2 gap-2 mb-2"
-                  >
+                  <div key={index} className="flex gap-2 mb-2">
                     <input
                       type="text"
-                      placeholder="Presenter Name"
                       value={presenter.name}
                       onChange={(e) =>
                         handleUpdatePresenter(index, "name", e.target.value)
                       }
-                      className="p-2 border rounded focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                      className="flex-1 p-2 border rounded focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                      placeholder="Presenter name"
                       required
                     />
-                    <div className="flex gap-2">
-                      <input
-                        type="url"
-                        placeholder="Presenter Link"
-                        value={presenter.link}
-                        onChange={(e) =>
-                          handleUpdatePresenter(index, "link", e.target.value)
-                        }
-                        className="flex-1 p-2 border rounded focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-                        required
-                      />
-                      {editingSession.presenter.length > 1 && (
-                        <button
-                          type="button"
-                          onClick={() => handleRemovePresenter(index)}
-                          className="px-3 py-1 bg-red-500 text-white text-sm rounded hover:bg-red-600"
-                        >
-                          Remove
-                        </button>
-                      )}
-                    </div>
+                    <input
+                      type="url"
+                      value={presenter.link}
+                      onChange={(e) =>
+                        handleUpdatePresenter(index, "link", e.target.value)
+                      }
+                      className="flex-1 p-2 border rounded focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                      placeholder="Presenter link"
+                      required
+                    />
+                    <button
+                      type="button"
+                      onClick={() => handleRemovePresenter(index)}
+                      className="px-3 py-2 bg-red-500 text-white rounded hover:bg-red-600 transition-colors"
+                    >
+                      Remove
+                    </button>
                   </div>
                 ))}
+                <button
+                  type="button"
+                  onClick={handleAddPresenter}
+                  className="px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600 transition-colors"
+                >
+                  Add Presenter
+                </button>
               </div>
 
-              <div className="flex justify-end space-x-2 pt-4">
+              <div className="flex gap-2 pt-4">
+                <button
+                  type="submit"
+                  className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors"
+                >
+                  {isEditing ? "Update Session" : "Create Session"}
+                </button>
                 <button
                   type="button"
                   onClick={handleCloseModal}
-                  className="px-4 py-2 text-gray-600 border rounded hover:bg-gray-50"
+                  className="px-4 py-2 bg-gray-500 text-white rounded hover:bg-gray-600 transition-colors"
                 >
                   Cancel
-                </button>
-                <button
-                  type="submit"
-                  className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
-                >
-                  {isEditing ? "Update" : "Create"} Session
                 </button>
               </div>
             </form>
           </Modal>
         )}
 
-        <div className="bg-white rounded-lg shadow overflow-hidden">
-          <div className="overflow-x-auto">
-            <table className="w-full">
-              <thead className="bg-gray-50">
-                <tr>
-                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                    Date
-                  </th>
-                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                    Paper Title
-                  </th>
-                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                    Presenter(s)
-                  </th>
-                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                    Academic Year
-                  </th>
-                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                    Actions
-                  </th>
-                </tr>
-              </thead>
-              <tbody className="bg-white divide-y divide-gray-200">
-                {sessions.map((session, sessionIndex) => (
-                  <tr
-                    key={session._id || `session-${sessionIndex}`}
-                    className="hover:bg-gray-50"
+        <div className="overflow-x-auto">
+          <table className="w-full table-auto border-collapse text-left">
+            <thead>
+              <tr className="border-b border-gray-300 bg-gray-50">
+                <th className="px-3 py-2">Date</th>
+                <th className="px-3 py-2">Academic Year</th>
+                <th className="px-3 py-2">Paper Title</th>
+                <th className="px-3 py-2">Presenters</th>
+                <th className="px-3 py-2">Actions</th>
+              </tr>
+            </thead>
+            <tbody>
+              {sessions.map((session, index) => (
+                <tr
+                  key={session._id || index}
+                  className="border-b border-gray-200 hover:bg-gray-50"
+                >
+                  <td className="px-3 py-2">{session.date}</td>
+                  <td className="px-3 py-2">{session.academicYear}</td>
+                  <td
+                    className="px-3 py-2 max-w-xs truncate"
+                    title={session.paperTitle}
                   >
-                    <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
-                      {session.date}
-                    </td>
-                    <td className="px-6 py-4 text-sm text-gray-900">
-                      <a
-                        href={session.paperLink}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-blue-600 hover:text-blue-800 hover:underline"
-                      >
-                        {session.paperTitle}
-                      </a>
-                    </td>
-                    <td className="px-6 py-4 text-sm text-gray-900">
-                      {session.presenter.map((p, idx) => (
-                        <div
-                          key={`${
-                            session._id || sessionIndex
-                          }-presenter-${idx}`}
-                        >
-                          <a
-                            href={p.link}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-blue-600 hover:text-blue-800 hover:underline"
-                          >
-                            {p.name}
-                          </a>
-                        </div>
-                      ))}
-                    </td>
-                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
-                      {session.academicYear}
-                    </td>
-                    <td className="px-6 py-4 whitespace-nowrap text-sm font-medium space-x-2">
+                    {session.paperTitle}
+                  </td>
+                  <td className="px-3 py-2">
+                    {session.presenter.map((p) => p.name).join(", ")}
+                  </td>
+                  <td className="px-3 py-2">
+                    <div className="flex gap-2">
                       <button
                         onClick={() => handleOpenEditModal(session)}
-                        className="text-blue-600 hover:text-blue-800"
+                        className="px-3 py-1 bg-blue-500 text-white rounded text-sm hover:bg-blue-600 transition-colors"
                       >
                         Edit
                       </button>
                       <button
-                        onClick={() => handleDelete(session._id!)}
-                        className="text-red-600 hover:text-red-800"
+                        onClick={() => session._id && handleDelete(session._id)}
+                        className="px-3 py-1 bg-red-500 text-white rounded text-sm hover:bg-red-600 transition-colors"
                       >
                         Delete
                       </button>
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
+                    </div>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
         </div>
-
-        {sessions.length === 0 && (
-          <div className="text-center py-12">
-            <p className="text-gray-500">No PRG sessions found.</p>
-            <button
-              onClick={handleOpenAddModal}
-              className="mt-4 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors"
-            >
-              Add First Session
-            </button>
-          </div>
-        )}
       </main>
     </Layout>
   );
