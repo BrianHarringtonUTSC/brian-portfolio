@@ -33,7 +33,7 @@ export default function PublicationsPage() {
         </h1>
 
         <p className="text-lg text-muted-foreground text-center">
-          A collection of research papers and publications authored by me
+          A collection of research papers and publications authored by me and/or my research team
         </p>
 
         <p className="text-muted-foreground text-center mb-8">
