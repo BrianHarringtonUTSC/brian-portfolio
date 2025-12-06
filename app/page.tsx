@@ -13,7 +13,7 @@ export default function Home() {
     <Layout>
       <div className="flex flex-col items-center space-y-4">
         <Image
-          src="/img/brian_headshot.webp?width=200&height=200"
+          src="/img/brian_headshot.webp"
           alt="Dr. Brian Harrington"
           width={200}
           height={200}

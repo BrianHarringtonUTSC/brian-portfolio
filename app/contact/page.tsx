@@ -9,7 +9,7 @@ export default function ContactPage() {
         {/* Fun Graphic */}
         <div className="w-full md:w-1/2 flex justify-center">
           <Image
-            src="/img/contact.webp?width=500&height=500"
+            src="/img/contact.webp"
             alt="Contact Graphic"
             width={500}
             height={500}
